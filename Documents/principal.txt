@@ -1,0 +1,19 @@
+
+
+	Java 1.8
+	Spring 4.15.1.RELEASE + spring boot + Spring Tool Suite 4 + JPA + springdoc-openapi-core + springdoc-openapi-ui
+	- En el application.properties se tiene la configuracion del origen de datos, alli se puede modificar para que apunte al esquema 
+	  en el que generaran las tablas.
+
+	Oracle Database 21c Express Edition + DbVisualizer
+	- Las tablas se crean al levantar la aplicacion
+	
+	Los EndPoints se pueden ejecutar desde POSTMAN on line En cada uno de los controller se encuentra la configuracion a usar
+	Para hacer la prueba de cada uno.
+	
+	La documentacion de los servicios se encuentra en la carpeta Documentos
+	La data de las tablas y el modelo realacional de las tablas se encuentra en la carpeta BD-Oracle Database 21c Express Edition 
+	
+	Al cargar el proyecto en el aclipse ejecutar maven clean + maven install para descargar las dependencias requeridas
+	
+	
